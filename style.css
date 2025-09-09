@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Archivo", sans-serif;
+    color: white;
+    background-color: rgb(207, 107, 60);
+}
+
+header{
+    background-color: sienna;
+    height: 110px;
+    width: 100%;
+    padding: 0 30px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 450px;
+    margin-top: 35px;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisar input{
+    background-position: right 20px center;
+    background-size: 22px;
+    padding-left: 20px;
+    width: 650px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.container-button button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(194, 105, 64);
+    color: rgb(80, 40, 22);
+    font-size: medium;
+    font-weight: bold;
+}
